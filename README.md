@@ -2,7 +2,9 @@
 # Project Name
 - Awesome Book 
 
-> A website for storing books.
+> A small website, that can be used to store a list of book in local storage
+using pure JavaScript. This website also use some of the libraries to show the date and time. Did not use any other libraries or frameworks to do the core functainality. most of code is written with pure JavaScript, HTML and CSS. 
+
 
 
 ## Built With
@@ -26,6 +28,7 @@ To get a local copy up and running follow these simple example steps.
 Have Git and GitHub
 ### Setup
 Copy HTTPS link of the repo and clone it in your local machine.
+Or run: git clone https://github.com/eaesmat/Awesome-Books-with-ES6.git
 ### Install
 Have a code editor to make changes.
 ### Usage
