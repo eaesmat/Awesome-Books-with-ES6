@@ -30,8 +30,9 @@ header h1,
 #navbar h1 {
   font-size: 2.5rem;
   color: var(--gray);
-  padding:10px;
+  padding: 10px;
 }
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -101,7 +102,7 @@ button {
   flex: 1 1 0%;
   padding: 0.8rem;
   border-radius: 1rem;
-  border:1px solid;
+  border: 1px solid;
   margin-right: 1rem;
   font-size: 1.25rem;
 }
@@ -185,17 +186,7 @@ button {
   padding: 12px;
   display: flex;
   justify-content: space-between;
-}
-
-.new-books div {
   background-color: block;
-}
-
-#footer {
-  border: 3px solid var(--gray);
-  width: 88%;
-  margin: 12px auto;
-  padding: 12px;
 }
 
 .hidden {
