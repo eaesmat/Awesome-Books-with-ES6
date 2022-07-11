@@ -56,7 +56,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--- Original idea by Cindy shine in Behance
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
