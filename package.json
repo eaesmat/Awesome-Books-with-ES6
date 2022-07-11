@@ -1,0 +1,30 @@
+{
+  "name": "awessom-books-with-es6",
+  "version": "1.0.0",
+  "description": "In this repo i have made a book list with ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahzamir/Awessom-books-with-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahzamir/Awessom-books-with-ES6/issues"
+  },
+  "homepage": "https://github.com/ahzamir/Awessom-books-with-ES6#readme",
+  "devDependencies": {
+    "@types/luxon": "^2.3.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "full-icu": "^1.4.0"
+  }
+}

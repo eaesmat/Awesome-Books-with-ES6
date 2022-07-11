@@ -1,0 +1,242 @@
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --light: #eee;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+  --gray: #808080;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira sans', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--dark);
+  color: #fff;
+}
+
+#navbar,
+#contact {
+  flex: 1 1 0%;
+  background-color: var(--darker);
+  padding: 1rem;
+  justify-content: space-between;
+  border: 3px solid #808080;
+  border-radius: 1rem;
+  width: 88%;
+  margin: 12px auto 0 auto;
+}
+
+header h1,
+.add-new h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#navbar h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: var(--gray);
+}
+
+.date-display {
+  display: flex;
+  justify-content: end;
+  width: 88%;
+  margin: 12px auto;
+}
+
+input,
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.nav-list li {
+  border-right: 2px solid #333;
+  margin-right: 4px;
+  padding-right: 4px;
+}
+
+#navbar ul li,
+#navbar ul li a {
+  display: flex;
+  text-decoration: none;
+  color: var(--pink);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+#navbar ul li a:hover {
+  color: var(--purple);
+}
+
+.heading {
+  flex: 1 1 0%;
+  padding: 1rem;
+  width: 88%;
+  color: var(--gray);
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.add-new h2 {
+  font-size: 2rem;
+}
+
+#awesome-books {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-input,
+.author-input {
+  flex: 1 1 0%;
+  background-color: var(--darker);
+  padding: 0.8rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  color: var(--light);
+  font-size: 1.25rem;
+}
+
+.title-input::placeholder,
+.author-input::placeholder {
+  font-size: 16px;
+  background: -webkit-linear-gradient(var(--light), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.add-btn {
+  color: var(--pink);
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(var(--pink), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.add-btn:hover {
+  opacity: 0.8;
+}
+
+.add-btn:active {
+  opacity: 0.6;
+}
+
+.added-books {
+  color: var(--pink);
+  border: 1px solid var(--purple);
+  font-size: 1rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(var(--light), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.remove-btn {
+  display: flex;
+  justify-content: end;
+  color: var(--pink);
+  font-size: 1rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(var(--pink), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+  border: 0.5px solid var(--purple);
+  padding: 5px;
+}
+
+.remove-btn:hover {
+  opacity: 0.8;
+}
+
+.remove-btn:active {
+  opacity: 0.6;
+}
+
+#contact h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#contact ul {
+  margin-left: 48px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+#top-books {
+  width: 80%;
+  margin: 0 auto;
+  border: solid var(--gray) 3px;
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+}
+
+#top-books h2 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.new-books {
+  margin-bottom: 32px;
+}
+
+.new-books div {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-books div:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+#footer {
+  border: 3px solid var(--gray);
+  width: 88%;
+  margin: 12px auto;
+  padding: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-container {
+  width: 50%;
+  margin: 0 auto;
+}
