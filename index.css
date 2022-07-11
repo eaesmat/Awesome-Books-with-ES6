@@ -186,7 +186,6 @@ button {
   padding: 12px;
   display: flex;
   justify-content: space-between;
-  background-color: block;
 }
 
 .hidden {
