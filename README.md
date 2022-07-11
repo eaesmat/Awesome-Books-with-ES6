@@ -28,7 +28,8 @@ To get a local copy up and running follow these simple example steps.
 Have Git and GitHub
 ### Setup
 Copy HTTPS link of the repo and clone it in your local machine.
-Or run: git clone https://github.com/eaesmat/Awesome-Books-with-ES6.git
+### OR Run
+git clone https://github.com/eaesmat/Awesome-Books-with-ES6.git
 ### Install
 Have a code editor to make changes.
 ### Usage
